@@ -52,5 +52,4 @@ def success(request):
 
 def logout(request):
     request.session.clear()
-    print("user logged out")
     return redirect('/')
